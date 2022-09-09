@@ -7,8 +7,8 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="NLog" Version="5.0.4"/>
-  </ItemGroup>
-  <Content Include="nlog.config">
+    <Content Include="nlog.config">
     <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </Content>
+  </ItemGroup>
 </Project>
